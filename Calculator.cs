@@ -5,8 +5,11 @@ class Calculator
 		int a = 10;
 		int b = 6;
 		
-		colsole.WriteLine("hasil penambahan: {0} + {1} = {2]", a, b, Penambahan(a, b));
-		colsole.WriteLine("hasil Pengurangan: {0} + {1} = {2}", a, b, Pengurangan(a, b));
+		Colsole.WriteLine("hasil penambahan: {0} + {1} = {2]", a, b, Penambahan(a, b));
+		Colsole.WriteLine("hasil Pengurangan: {0} + {1} = {2}", a, b, Pengurangan(a, b));
+		
+		Colsole.WriteLine("\nTekan sembarang key untuk keluar");
+		Console.ReadKey();
 	}
 	
 	static int Penambahan(int a, int b)
